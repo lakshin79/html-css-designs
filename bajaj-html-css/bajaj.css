@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    align-items: center;
+    height: 5rem;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    padding: 25px;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:hover{
+    background-color: lightblue;
+    border-bottom: 2px solid black;
+}
+
+h1{
+    
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: grey;
+}
+
+p{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.bikes{
+    margin-top: 1rem;
+    background-color: rgb(199, 215, 230);
+    height: 95rem;
+}
+
+.bike1, .bike2, .bike3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+}
+
+img{
+    background-color: white;
+}
+.bike3{
+    padding-bottom: 30px;
+}
+
+.bike1{
+    padding-top: 50px;
+}
+
+h2{
+    color: coral;
+    text-align: center;
+    font-size: 30px;
+}
+
+button{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-size: 1.6rem;
+    float: right;
+    margin: 2rem;
+}
+
+button:hover{
+    background-color: grey;
+}
